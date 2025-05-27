@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Event Management</h1>
+    <form id="event-form">
+        <input type="text" id="eventId" placeholder="ID" required>
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="description" placeholder="Description" required>
+        <input type="text" id="date" placeholder="Date" required>
+        <input type="text" id="place" placeholder="Place" required>
+
+        <div class="buttons">
+            <button id="ajax-btn">Load All Event Data</button>
+            <button type="button" class="saveBtn"> Save </button>
+            <button type="button" class="refreshBtn"> Refresh </button>
+            <button type="button" class="updateBtn"> Update </button>
+            <button type="button" class="deleteBtn"> Delete </button>
+        </div>
+    </form>
+    <table id="eventTable">
+        <thead>
+        <tr>
+            <th id="eid">ID</th>
+            <th id="ename">Name</th>
+            <th id="edescription">Description</th>
+            <th id="edate">Date</th>
+            <th id="eplace">Place</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="crud.js"></script>
+</body>
+</html>
