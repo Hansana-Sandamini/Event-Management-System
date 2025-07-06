@@ -4,6 +4,19 @@ A web-based Event Management System built using Java Servlets (Jakarta EE), jQue
 
 ---
 
+## 🚀 Features
+
+- 🔍 View all events from the database
+- ➕ Add new events
+- ✏️ Update existing events
+- ❌ Delete events
+- 📋 Table row selection & form auto-fill
+- 🔄 Refresh/reset form
+- 🔄 Automatically reloads event list after every change
+- 🌐 CORS enabled for cross-origin requests
+
+---
+
 ## 🛠️ Technologies Used
 - Java Servlet (Jakarta EE)
 - MySQL
